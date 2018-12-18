@@ -1,0 +1,27 @@
+{
+  "name": "express-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanDowdy/express-react-boilerplate.git"
+  },
+  "author": "Ian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanDowdy/express-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/IanDowdy/express-react-boilerplate#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
