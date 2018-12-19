@@ -4,7 +4,7 @@
   "description": "Boilerplate for React and Express",
   "main": "server.js",
   "scripts": {
-    "postinstall": "npm install && client-install",
+    "preinstall": "npm install && client-install",
     "client-install": "cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
