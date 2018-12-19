@@ -15,10 +15,12 @@ app.get('/api/customers', (req, res) => {
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
 }
-    const path = require('path');
-    app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, './client/build/index.html'));
-    })
+    
+const path = require('path');
+    
+app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, './client/build/public/index.html'));
+    });
 
 
 const port = process.env.PORT || 5000;
