@@ -4,7 +4,6 @@
   "description": "Boilerplate for React and Express",
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild": "npm install && npm run client-install && npm run build",
     "client-install": "cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
